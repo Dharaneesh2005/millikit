@@ -1,13 +1,6 @@
 {
-  "projects": {
-    "client": {
-      "source": "client",
-      "buildCommand": "npm run build",
-      "installCommand": "npm install",
-      "outputDirectory": "dist"
-    }
-  },
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "other",
+  "rootDirectory": "client"
 }
